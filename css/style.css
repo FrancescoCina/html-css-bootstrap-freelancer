@@ -7,3 +7,47 @@ header{
 .jumbotron{
     border: 1px solid #000;
 }
+
+.portfolio{
+    border: 1px solid red;
+}
+
+.work{
+    border: 1px dashed orangered;
+}
+
+.about{
+    border: 1px dashed yellowgreen;
+}
+
+.about-text{
+    border: 1px dashed forestgreen;
+}
+
+
+.contact{
+    border: 1px solid fuchsia;
+}
+
+/* FORM */
+label{
+    display: block;
+}
+
+input{
+    display: block;
+}
+
+/* FOOTER */
+
+footer{
+    border: 1px solid purple;
+}
+
+.section-footer{
+    border: 1px dashed dodgerblue;
+}
+
+.credits{
+    background-color: violet;
+}
