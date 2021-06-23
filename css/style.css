@@ -1,53 +1,46 @@
-header{
-    border: 1px solid blue;
-    height: 100px;
+
+/* COLORS */
+
+.bg-dark-blue{
+    background-color: #2c3e50;
+}
+
+.bg-water-green{
+    background-color:#1abc9c;
+}
+
+.bg-footer-top-blue{
+    background-color:#3a546d;
 }
 
 
-.jumbotron{
-    border: 1px solid #000;
+.jumbotron-image{
+   width: 200px;
+   height: 200px;
 }
 
-.portfolio{
+#portfolio{
     border: 1px solid red;
 }
 
-.work{
-    border: 1px dashed orangered;
-}
-
-.about{
+#about{
     border: 1px dashed yellowgreen;
 }
 
-.about-text{
-    border: 1px dashed forestgreen;
-}
-
-
-.contact{
+#contact{
     border: 1px solid fuchsia;
 }
 
-/* FORM */
-label{
-    display: block;
+
+.right-line{
+    height: 3px;
+    width: 10%;
 }
 
-input{
-    display: block;
+.left-line{
+    height: 3px;
+    width: 10%;
 }
 
-/* FOOTER */
 
-footer{
-    border: 1px solid purple;
-}
 
-.section-footer{
-    border: 1px dashed dodgerblue;
-}
-
-.credits{
-    background-color: violet;
-}

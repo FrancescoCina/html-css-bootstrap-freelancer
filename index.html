@@ -5,52 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <div class="container-fluid">
-        <header class="row">
-            <div class="col"><h3>Start Bootstrap</h3></div>
-            <div class="col"><nav>Navigation Menu</nav></div>
-        </header>
-    </div>
-    <div class="container container-md container-lg">
-        <div class="jumbotron"> 
-            <div class="jumbotron-image">Immagine</div>
+<body class="text-uppercase">
+    <header>        
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue px-lg-5">
+                <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Start Bootstrap</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                      
+                        </ul>
+                      </div>
+                </div>
+            </nav>
+    </header>
+
+    <section id="jumbotron" class="bg-water-green"> 
+            <div class="container container-md container-lg">
+            <div class="row text-white py-5">    
+                <div class="col-12 d-flex justify-content-center">
+                    <figure class="jumbotron-image">
+                        <img src="./img/avatar.svg" alt="Avatar">
+                    </figure>                    
+                </div>
+                <div class="col-12 d-flex justify-content-center"><h1>Start Bootstrap</h1></div>
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="left-line bg-white"></div>
+                    <i class="bi bi-star-fill px-4 fs-3"></i>
+                    <div class="right-line bg-white"></div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="description-profile fs-4">Graphic Artist - Web Designer - Illustrator</div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+            
+            
+            
+            
+            
+            
+            <!-- <div class="jumbotron-image">Immagine</div>
             <h1>Start Bootstrap</h1>
             <p>star</p>
             <div class="categories">
                 <span>Graphic Artist -</span>
                 <span>Web Designer -</span>  
                 <span>Illustrator</span>
-            </div>
-        </div>
-        <div class="portfolio">
+            </div> -->
+        </section>
+    </div>  
+        <section id="portfolio">
             <h2>Porfolio</h2>
             <p>star</p>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 work">work one</div>
-                <div class="col-12 col-md-6 col-lg-4 work">work second</div>
-                <div class="col-12 col-md-6 col-lg-4 work">work three</div>
-                <div class="col-12 col-md-6 col-lg-4 work">work four</div>
-                <div class="col-12 col-md-6 col-lg-4 work">work five</div>
-                <div class="col-12 col-md-6 col-lg-4 work">work six</div>
+                <div class="col-12 col-md-6 col-lg-4">work one</div>
+                <div class="col-12 col-md-6 col-lg-4">work second</div>
+                <div class="col-12 col-md-6 col-lg-4">work three</div>
+                <div class="col-12 col-md-6 col-lg-4">work four</div>
+                <div class="col-12 col-md-6 col-lg-4">work five</div>
+                <div class="col-12 col-md-6 col-lg-4">work six</div>
             </div>
-        </div>   
-        <div class="about">
+        </section> 
+        <section id="about">
             <h2>About</h2>
             <p>star</p>
             <div class="row">
-                <div class="col-12 col-md-6 about-text">First Text</div>
-                <div class="col-12 col-md-6 about-text">Second Text</div>
-                <div class="download-button">Download</div>
+                <div class="col-12 col-md-6 offset-lg-2 col-lg-4">First Text</div>
+                <div class="col-12 col-md-6 col-lg-4">Second Text</div>
+                <div class="download-button text-center">Download</div>
             </div>
-        </div>    
-        <div class="contact">
+        </section>    
+        <section id="contact">                 
             <h2>Contact Me</h2>
             <p>Star</p>
-            <div class="form">
+            <!-- <div class="form">
                 <form action="">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name">
@@ -61,10 +111,10 @@
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="10" rows="5"></textarea>
                     <button type="button">Send</button>
-                </form>
+                </form> -->
             </div>
-        </div>    
-    </div>  
+        </section>id
+      
     <footer>
         <div class="container-fluid">
             <div class="row">
