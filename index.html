@@ -71,33 +71,33 @@
                     <div class="col-12 d-flex justify-content-center">
                         <div class="row my-3 gy-3">
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="container-img rounded-3">
-                                    <img src="./img/cabin.png" alt="Cabin">
+                                <div class="container-img">
+                                    <img src="./img/cabin.png" class="rounded-3" alt="Cabin">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="container-img rounded-3">
-                                    <img src="./img/cake.png" alt="Cake">
+                                <div class="container-img">
+                                    <img src="./img/cake.png" class="rounded-3" alt="Cake">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="container-img rounded-3">
-                                    <img src="./img/circus.png" alt="Circus">
+                                <div class="container-img">
+                                    <img src="./img/circus.png" class="rounded-3" alt="Circus">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="container-img rounded-3">
-                                    <img src="./img/game.png" alt="Game">
+                                <div class="container-img">
+                                    <img src="./img/game.png" class="rounded-3" alt="Game">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="container-img rounded-3">
-                                    <img src="./img/safe.png" alt="Safe">
+                                <div class="container-img">
+                                    <img src="./img/safe.png" class="rounded-3" alt="Safe">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="container-img rounded-3">
-                                    <img src="./img/submarine.png" alt="Submarine">
+                                <div class="container-img">
+                                    <img src="./img/submarine.png" class="rounded-3" alt="Submarine">
                                 </div>
                             </div>
                         </div>
@@ -105,8 +105,8 @@
                 </div>
             </div>
         </section>    
-        <section id="about" class="bg-water-green text-white">
-            <div class="container container-md container-lg my-5">
+        <section id="about" class="bg-water-green text-white py-5">
+            <div class="container container-md container-lg">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
                         <h2>About</h2>
@@ -125,45 +125,69 @@
                 </div>
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
-                        <button type="button" class="btn btn-outline-white">Download</button>
+                        <button type="button" class="btn btn-outline-white">
+                            <i class="bi bi-cloud-arrow-down"></i>
+                            Download
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="contact">  
+            <div class="container container-md container-lg my-5">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center"><h2>Contact Me</h2></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="left-line bg-dark"></div>
+                        <i class="bi bi-star-fill px-4 fs-3"></i>
+                        <div class="right-line bg-dark"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="text-capitalize">
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email Address</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone">
+                          </div>
+                          <div class="mb-3">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message"></textarea>
+                          </div>
+                        
+                        <button type="submit" class="btn bg-water-green text-white">Send</button>
+                      </form>
+                </div>
+            </div>                      
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section id="contact">                 
-            <h2>Contact Me</h2>
-            <p>Star</p>
-            
-            </div>
-        </section>id
+        <!-- FOOTER -->
       
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-4 section-footer">
+                <div class="col-12 col-md-4 d-flex justify-content-center">
                     <h4>Location</h4>
-                    <p>Adress</p>
+                    <p>2215 John Daniel Drive Clark, MO</p>
+                    <p>54243</p>
                 </div>
-                <div class="col-12 col-md-4 section-footer">
+                <div class="col-12 col-md-4 d-flex justify-content-center">
                     <h4>Around the web</h4>
-                    <div class="social-buttons"></div>
+                    <div class="social-buttons">
+                        <div class="facebook rounded-circle"><i class="bi bi-facebook"></i></div>
+                        
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 section-footer">
+                <div class="col-12 col-md-4 d-flex justify-content-center">
                     <h4>About Freelancer</h4>
                     <p>Freelance is a free to use, open source Bootstrap theme created by <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Start Bootstrap</a></p>
                 </div>
