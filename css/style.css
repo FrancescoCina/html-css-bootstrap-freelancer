@@ -13,17 +13,24 @@
     background-color:#3a546d;
 }
 
-
 .water-green{
     color:#1abc9c;
 }
 
+/* --------------------------- */
 
+body{
+    font-family: 'Lato', sans-serif;
+}
 
+/* RESIZING JUMBOTRON img */
 .jumbotron-image{
    width: 200px;
    height: 200px;
 }
+/* ----------------- */
+
+/* Lines around star */
 
 .right-line{
     height: 3px;
@@ -34,7 +41,9 @@
     height: 3px;
     width: 10%;
 }
+/* --------------- */
 
+/* Resizing img */
 
 .container-img img{
     width: 100%;
@@ -42,25 +51,32 @@
     object-fit: cover;
 }
 
+/* ------------------ */
 
+/* BUTTON STYLE */
 
 .btn-outline-white{
     color: #fff;
     border-color: #fff;
 }
-
-
 .btn-outline-white:hover{
     color: #1abc9c;
     border-color: #1abc9c;
     background-color: #fff;
 }
 
+/* ---------------- */
+
+
+/* FORM */
+
 .form-control{
     border:0;
     border-bottom: 1px solid lightgray;
 }
+/* --------------- */
 
+/* CIRCLE DIV FOR SOCIAL ICONS */
 
 .social-icon{
     border: 1px solid white;
@@ -69,10 +85,11 @@
     position: relative;
     margin-left: 6px;
 }
-
 .fab{
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50% , -50%);
 }
+
+/* --------------------- */
