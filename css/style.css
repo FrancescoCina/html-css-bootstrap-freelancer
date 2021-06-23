@@ -14,19 +14,16 @@
 }
 
 
+.water-green{
+    color:#1abc9c;
+}
+
+
+
 .jumbotron-image{
    width: 200px;
    height: 200px;
 }
-
-#about{
-    border: 1px dashed yellowgreen;
-}
-
-#contact{
-    border: 1px solid fuchsia;
-}
-
 
 .right-line{
     height: 3px;
@@ -59,12 +56,23 @@
     background-color: #fff;
 }
 
-
-
 .form-control{
     border:0;
-    border-bottom: 1px solid darkslategrey;
+    border-bottom: 1px solid lightgray;
 }
 
 
+.social-icon{
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    margin-left: 6px;
+}
 
+.fab{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
